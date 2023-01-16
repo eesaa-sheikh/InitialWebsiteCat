@@ -1,0 +1,127 @@
+body,
+h1,
+h2,
+nav {
+    margin: 1px;
+}
+
+body{
+    background-color: #fbecdc;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23feab52' fill-opacity='0.1'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");}
+
+header {
+    background-color: rgb(253, 195, 87);
+}
+
+.newNav{
+font-size: larger;   
+font-weight: bolder;
+color: rgb(238, 188, 126) ;
+align-items: center;
+
+}
+
+
+.padded_content {
+    padding: 2rem 10%;
+}
+
+footer {
+    background-color:#fbecdc;
+}
+
+#british {
+    background-color: rgb(243, 172, 42);
+}
+
+.card {
+    background-color: rgb(243, 172, 42);
+    border: 3px solid rgb(243, 150, 50);
+    width: 500px;
+    transition: 0.2s;
+}
+
+.card:hover{
+    background-color: rgb(243, 150, 50);
+    transform: scale(1.1);
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: rgb(243, 150, 50);
+    transform: scale(1.1);
+    border-style: double;
+    transition: 0.2s;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header > h1 {
+    width: 40%;
+}
+
+.header > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ==HERO================= */
+
+.hero {
+    height: 500px;
+    background-image: url(https://img.freepik.com/free-vector/cat-lover-pattern-background-design_53876-100662.jpg?w=2000);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.entireInfo {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contact {
+    margin-top: 50px;
+    background-color: rgb(248, 135, 14);
+    border: 3px solid rgb(243, 150, 50);
+    display: flex;
+}
+
+.contact__form {
+    display: flex;
+    align-items: center;
+}
+
+.contact__text {
+    width: 50%;
+}
+
+.contact__form > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact input {
+    margin: 10px;
+}
+
+.footer__left {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__left nav,
+.footer__left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__left p {
+    margin: 0;
+}
